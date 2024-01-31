@@ -1,0 +1,41 @@
+body {
+    display: flex;
+}
+#left {
+   display: flex; 
+   flex-direction: column;
+   width: 33vw;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 50);
+    height: 120px;
+}
+
+#title img {
+    height: 100px;
+    width: auto;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 67vw;
+}
+
+#top {
+    height: 34vw;
+    width: auto;
+}
+
+form {
+    height: 33vw;
+    width: auto;
+}
+
+#bottom {
+    height: 33vw;
+    width: auto;
+}
