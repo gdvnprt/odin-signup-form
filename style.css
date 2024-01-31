@@ -69,9 +69,17 @@ body {
     width: auto;
 }
 
+#top p {
+    padding: 10px;
+    position: relative;
+    top: 15vh;
+    font-weight: bold;
+}
+
 form {
     height: 33vh;
     width: auto;
+    box-shadow: 4px 3px 14px 4px rgba(0,0,0,0.40);
 }
 
 #bottom {
@@ -79,4 +87,22 @@ form {
     flex-direction: column;
     height: 33vh;
     width: auto;
+}
+
+button {
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #0f6319;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+#bottom p {
+    margin-left: 40px;
+}
+
+a {
+    color: #0f6319;
 }
