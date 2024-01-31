@@ -27,17 +27,6 @@ body {
    background: #000 url("photo-1585202900225-6d3ac20a6962.avif");
 }
 
-#title {
-    position: relative;
-    top: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 120px;
-    width: 33vw;
-}
-
 #left p {
     position: relative;
     top: 85vh;
@@ -45,9 +34,26 @@ body {
     color: white;
 }
 
+#title {
+    display: flex;
+    position: relative;
+    top: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 120px;
+    width: 33vw;
+}
+
 #title img {
     height: 100px;
     width: auto;
+}
+
+#title p {
+    font-family: "norse";
+    color: white;
 }
 
 #right {
