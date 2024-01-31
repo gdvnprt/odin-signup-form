@@ -4,14 +4,22 @@ body {
 #left {
    display: flex; 
    flex-direction: column;
+   align-items: center;
    width: 33vw;
+   height: 100vw;
+   background: url("photo-1585202900225-6d3ac20a6962.avif");
 }
 
 #title {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 50);
+    background-color: rgba(0, 0, 0, 0.6);
     height: 120px;
+    width: 33vw;
+}
+
+#left p {
+    color: white;
 }
 
 #title img {
@@ -26,6 +34,8 @@ body {
 }
 
 #top {
+    display: flex;
+    flex-direction: column;
     height: 34vw;
     width: auto;
 }
@@ -36,6 +46,8 @@ form {
 }
 
 #bottom {
+    display: flex;
+    flex-direction: column;
     height: 33vw;
     width: auto;
 }
