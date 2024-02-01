@@ -10,9 +10,13 @@ table { border-collapse: collapse; border-spacing: 0;}
 
 @font-face {
     font-family: "norse";
-    src: url("Norse-Bold.otf") format("otf");
-    font-weight: normal;
+    src: local("fonts/Norse-Bold.otf") format("opentype");
     font-style: normal;
+    font-weight: normal;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body {
