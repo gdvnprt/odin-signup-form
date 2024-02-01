@@ -84,9 +84,6 @@ fieldset {
     height: 33vh;
     width: auto;
     box-shadow: 4px 3px 14px 4px rgba(0,0,0,0.40);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     position: relative;
 }
 
@@ -98,12 +95,23 @@ legend {
     left: 7vw;
 }
 
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    top: 5vh;
+    width: 50vw;
+}
+
 .label-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20vw;
 }
 
 input {
