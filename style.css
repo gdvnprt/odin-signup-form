@@ -86,6 +86,7 @@ fieldset {
     box-shadow: 4px 3px 14px 4px rgba(0,0,0,0.40);
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     position: relative;
 }
 
@@ -97,16 +98,23 @@ legend {
     left: 7vw;
 }
 
+.label-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
 input {
     width: 190px;
     padding: 0;
-    margin: 20px;
+    margin: 0;
     box-sizing: border-box;
-    position: relative;
 }
 
 label {
-    position: relative;
+    display: inline-block;
 }
 
 #bottom {
@@ -121,7 +129,7 @@ button {
     height: 40px;
     width: 200px;
     color: white;
-    background-color: #0f6319;
+    background-color: #596D48;
     border-radius: 5px;
     border: none;
     margin: 40px;
