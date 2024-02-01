@@ -16,7 +16,7 @@ table { border-collapse: collapse; border-spacing: 0;}
 }
 
 html {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -80,10 +80,33 @@ body {
     font-weight: bold;
 }
 
-form {
+fieldset {
     height: 33vh;
     width: auto;
     box-shadow: 4px 3px 14px 4px rgba(0,0,0,0.40);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 1vh;
+    left: 7vw;
+}
+
+input {
+    width: 190px;
+    padding: 0;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+label {
+    position: relative;
 }
 
 #bottom {
@@ -100,7 +123,10 @@ button {
     color: white;
     background-color: #0f6319;
     border-radius: 5px;
+    border: none;
     margin: 40px;
+    position: relative;
+    left: 2vw;
 }
 
 #bottom p {
