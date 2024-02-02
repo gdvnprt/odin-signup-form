@@ -173,10 +173,17 @@ a {
     color: #0f6319;
 }
 
-input:focus {
-    border: 1px solid #0000FF;
-}
-
 input:invalid {
     border: 1px solid #E60026
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #0000FF;
+    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.64);
+}
+
+button:hover,
+button:focus {
+    box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.64);
 }
