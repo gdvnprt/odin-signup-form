@@ -123,6 +123,7 @@ input {
 
 label {
     display: inline-block;
+    color: #626262;
 }
 
 #bottom {
@@ -130,6 +131,18 @@ label {
     flex-direction: column;
     height: 33vh;
     width: auto;
+    position: relative;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    position: relative;
+    top: 5vh;
+    right: 15vw;
 }
 
 button {
@@ -140,13 +153,6 @@ button {
     background-color: #596D48;
     border-radius: 5px;
     border: none;
-    margin: 40px;
-    position: relative;
-    left: 2vw;
-}
-
-#bottom p {
-    margin-left: 40px;
 }
 
 a {
