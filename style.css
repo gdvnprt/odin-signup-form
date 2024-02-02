@@ -10,7 +10,7 @@ table { border-collapse: collapse; border-spacing: 0;}
 
 @font-face {
     font-family: "norse";
-    src: local("fonts/Norse-Bold.otf") format("opentype");
+    src: url("fonts/Norse-Bold.otf") format("opentype");
     font-style: normal;
     font-weight: normal;
 }
@@ -71,6 +71,16 @@ body {
     flex-direction: column;
     height: 34vh;
     width: auto;
+    position: relative;
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    left: 5vw;
+    width: 450px;
 }
 
 #top p {
