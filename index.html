@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="left">
@@ -51,7 +51,7 @@
 
                     <div class="label-container">
                         <label for="password">Password</label>
-                        <input type="password" class="passwords" id="password" name="password" required>
+                        <input type="password" class="passwords" id="password" name="password" required onkeyup="confirmPW();">
                         <p id="pw_match"></p>
                     </div>
 

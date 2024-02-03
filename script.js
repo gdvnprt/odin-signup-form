@@ -1,12 +1,14 @@
 function confirmPW() {
-    if (document.querySelector('password').value ==
-    document.querySelector('confirm-pw').value) {
-    document.querySelector('confirm_pw').style.color = '#596D48';
-    document.querySelector('passwords').style.border = '1px solid #596D48';
-    document.querySelector('confirm_pw').innerHTML = 'Passwords match';
+    if (document.querySelector('#password').value ==
+    document.querySelector('#confirm-pw').value) {
+    document.querySelector('#pw_match').style.color = 'green';
+    document.querySelectorAll('#password').style.border = '1px solid green';
+    document.querySelectorAll('#confirm-pw').style.border = '1px solid green';
+    document.querySelector('#pw_match').innerHTML = 'Passwords match';
   } else {
-    document.querySelector('confirm_pw').style.color = '#E60026';
-    document.querySelector('passwords').style.border = '1px solid #E60026';
-    document.querySelector('confirm_pw').innerHTML = '* Passwords do not match';
+    document.querySelector('#pw_match').style.color = '#E60026';
+    document.querySelector('#password').style.border = '1px solid #E60026';
+    document.querySelector('#confirm-pw').style.border = '1px solid #E60026';
+    document.querySelector('#pw_match').innerHTML = '* Passwords do not match';
     }
 }
