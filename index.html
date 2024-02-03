@@ -11,14 +11,14 @@
     <div id="left">
         <div id="title">
             <img src="odin-lined.png" alt="Odin Logo">
-            <p>Odin</p>
+            <p id="title_text">Odin</p>
         </div>
-        <p>Photo by Halie West on Unsplash</p>
+        <p id="photo_credit">Photo by Halie West on Unsplash</p>
     </div>
 
     <div id="right">
         <div id="top">
-            <div id="text-container">
+            <div id="text_container">
                 <p>This is not a real online service!  You know you need something like this in your life to help you realize your deepest dreams.  Sign up <em>now</em> to get started.</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
@@ -28,36 +28,36 @@
             <fieldset>
                 <legend>Let's do this!</legend>
 
-                <div class="form-container">
-                    <div class="label-container">
+                <div class="form_container">
+                    <div class="label_container">
                         <label for="first-name">First Name</label>
                         <input type="text" id="first-name" name="first-name" required placeholder="Thor">
                     </div>
 
-                    <div class="label-container">
+                    <div class="label_container">
                         <label for="last-name">Last Name</label>
                         <input type="text" id="last-name" name="last-name" required placeholder="Odinson">
                     </div>
 
-                    <div class="label-container">
+                    <div class="label_container">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" required>
                     </div>
 
-                    <div class="label-container">
+                    <div class="label_container">
                         <label for="phone-number">Phone Number</label>
                         <input type="tel" id="telephone-number" name="telephone-number">
                     </div>
 
-                    <div class="label-container">
+                    <div class="label_container">
                         <label for="password">Password</label>
-                        <input type="password" class="passwords" id="password" name="password" required onkeyup="confirmPW();">
+                        <input type="password" id="password" name="password" required onkeyup="confirmPW();">
                         <p id="pw_match"></p>
                     </div>
 
-                    <div class="label-container">
+                    <div class="label_container">
                         <label for="confirm-pw">Confirm Password</label>
-                        <input type="password" class="passwords" id="confirm-pw" name="confirm-pw" required onkeyup="confirmPW();">
+                        <input type="password" id="confirm-pw" name="confirm-pw" required onkeyup="confirmPW();">
                     </div>
                 </div>
             </fieldset>
